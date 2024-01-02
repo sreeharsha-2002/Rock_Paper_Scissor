@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: navy;
+    color: white;
+    height: 80px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images img{
+    width: 250px;
+    height: auto;
+    rotate: 270deg;
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+    padding: 5px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+.images img:hover{
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.players{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-top: 30px;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.final-result{
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+.reset{
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
